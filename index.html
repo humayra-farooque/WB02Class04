@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentsRegistrationForm</title>
+</head>
+<body>
+    <h>FORM PREVIEW</h>
+    <hr>
+    <p>A student registration form collects all the necessary information to register students for a course. No matter what subject you teach, this free Student Registration Form allows students to quickly and easily sign up for your class online. Simply customize the form to meet your needs, publish it on your school’s website, and watch the registrations roll in! Students can provide their contact information, detail their academic history, list extracurriculars and additional interests, and even pay registration fees if required. Submissions will be sent to your secure Jotform account, easily accessible on any device — even offline.</p><br>
+
+    <pre>This Student Registration Form was initially designed for university-level courses — however, you won’t need to take a class on coding to make adjustments to the form. Our drag-and-drop Form Builder makes it easy to add form fields, <br>
+    change the template design, and even upload your school logo for a more professional . <br>
+    You can even integrate the form with a secure gateway like Square or PayPal to safely accept payments for class registration fees. <br>
+    Feel free to take advantage of our other integrations as well — send submissions directly to your cloud storage accounts, online spreadsheets, email list, and more. <br>
+    With an advanced Student Registration Form reducing your teacher workload, student enrollment is as easy as A-B-C! </pre> <br>
+    
+    <form action="#">
+    <b><label for="Basic Information"> Basic Information:</label></b><br><br>
+    <label for="Full Name">Full Name:</label>
+    <input type="text" placeholder=" Enter your First Name" autofocus id= "First Name" required> <br><br>
+    <label for="Middle Name">Middle Name:</label>
+    <input type="text" placeholder="Enter your Middle Name" id="Middle Name" required> <br><br>
+    <label for="Last Name">Last Name:</label>
+    <input type="text" placeholder="Enter your Last Name" id="Last Name" required><br><br>
+    <label for="Student Number">Student Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+    <label for="bdaymonth">Birthday( month and year):</label>
+    <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+    <label for="Degree Program">Choose A Program:</label>
+    <select name="program" id="program">
+        <option value="Bpharm">Bpharm</option>
+        <option value="Mpharm">Mpharm</option>
+        <option value="Dpharm">Dpharm</option>
+        <option value="BBA">BBA</option>
+        <option value="MBA">MBA</option>
+        <option value="BA">BA</option>
+        <option value="MA">MA</option>
+    </select><br><br>
+    <label for="Email">Email:</label>
+    <input type="email" placeholder="example@gmail.com" required><br><br>
+    <label for="Present Address">Present Address:</label>
+    <input type="text" placeholder="Enter your address"><br><br>
+    <label for="Street">Street:</label>
+    <input type="text" placeholder="Enter your street address"><br><br>
+    <label for="city">City:</label>
+    <input type="text" placeholder="Name of your City"><br><br>
+    <label for="Country">Country:</label>
+    <select name="Country" id="country">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Africa">Africa</option>
+        <option value="Germany">Germany</option>
+        <option value="India">India</option>
+    </select><br><br>
+    <label for="Permanent Address">Permanent Address:</label>
+    <input type="text" placeholder="Enter your permanent address"><br><br>
+    <label for="Emergency Contact">Emergency contact:</label>
+    <input type="tel" id="phone" name="phone">
+    <label for="relationship">Relationship:</label>
+    <input type="text" placeholder="father, mother,etc."><br><br>
+    
+    <b><label for="Academic Background">Academic Background:</label></b><br><br>
+    <label for="High school background">High school background:</label>
+    <input type="text"><br><br>
+    <label for="Others">Others:</label>
+    <select name="others" id="others">
+        <option value="Club">Club</option>
+        <option value="Student Council">Student Council</option>
+        <option value="Sports">Sports</option>
+    </select><br><br>
+    <label for="Skills">Skills:</label>
+    <select name="Skills" id="Skills">
+        <option value="Acting">Acting</option>
+        <option value="Calculating">Calculating</option>
+        <option value="arts and crafts"> Arts and Crafts</option>
+    </select><br><br>
+   <button>Print Form</button> 
+   <button>Submit</button>
+    
+    </form> <br><br>
+    <img src="institute.jpg">
+</body>
+</html>
